@@ -69,7 +69,9 @@ export default function PrivacyPolicy() {
               <p>
                 App-scoped preferences and operational flags, including whether
                 the free assistant conversation has been used, are stored on
-                your device. They are not sent to the developer.
+                your device. A due-review count and its review dates are also
+                shared locally with the app&apos;s Due Review widget through an
+                Apple App Group container. They are not sent to the developer.
               </p>
 
               <h3>Study progress exports</h3>
@@ -193,6 +195,10 @@ export default function PrivacyPolicy() {
                   <strong>MetricKit and App Analytics:</strong> Apple manages
                   optional crash and performance diagnostics under your device
                   analytics-sharing choices.
+                </li>
+                <li>
+                  <strong>WidgetKit:</strong> the Due Review widget reads only
+                  the local review summary shared by the app in its App Group.
                 </li>
               </ul>
               <p>
