@@ -93,6 +93,17 @@ export default function PrivacyPolicy() {
                 contains no student identity and is not sent to the developer.
               </p>
 
+              <h3>Campaign links</h3>
+              <p>
+                If you open a valid campaign link, the app may store one local
+                attribution record containing a bounded campaign identifier,
+                an allow-listed source such as the website or a teacher, the
+                type of destination opened, and the date. The newest valid
+                record replaces the previous one. It is not linked to your
+                identity and is not sent to the developer or an analytics
+                provider.
+              </p>
+
               <h3>Support messages</h3>
               <p>
                 If you choose to email support, your email service sends the
@@ -110,7 +121,7 @@ export default function PrivacyPolicy() {
                 <li>ground and configure the private Question Assistant;</li>
                 <li>sync your profile and progress between your Apple devices;</li>
                 <li>restore access to a verified in-app purchase; and</li>
-                <li>remember an anonymous teacher referral on your device.</li>
+                <li>remember anonymous referral or campaign attribution on your device.</li>
               </ul>
               <p>
                 The developer does not sell this information, use it for
@@ -166,6 +177,11 @@ export default function PrivacyPolicy() {
                 Local teacher referral attribution is removed when the app and
                 its local data are deleted. It is not included in the private
                 CloudKit study records.
+              </p>
+              <p>
+                Local campaign-link attribution is also removed when the app
+                and its local data are deleted. It is not synced through
+                CloudKit or sent to the developer.
               </p>
               <p>
                 Use <strong>Settings → Reset All Progress</strong> to remove
