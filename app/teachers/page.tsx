@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SiteShell } from "../components/SiteShell";
+import { TeacherInterestForm } from "./TeacherInterestForm";
 
 export const metadata: Metadata = {
   title: "For Teachers",
@@ -13,6 +14,7 @@ const sections = [
   ["codes", "Referral codes"],
   ["privacy", "Student privacy"],
   ["access", "Full Access"],
+  ["licensing", "School licensing"],
 ] as const;
 
 export default function Teachers() {
@@ -80,6 +82,21 @@ export default function Teachers() {
                 purchase. Any future promotional access will be delivered only
                 through an approved App Store or server-backed mechanism.
               </p>
+            </section>
+
+            <section className="document-section" id="licensing">
+              <h2>Help shape a possible school licence</h2>
+              <p>
+                No institutional product, roster system, or teacher dashboard
+                is being offered today. This short discovery form helps identify
+                demand and the procurement requirements that would need to be
+                solved before any school licence is designed.
+              </p>
+              <p>
+                It deliberately asks for no student information, school name,
+                roster, or free-text educational record.
+              </p>
+              <TeacherInterestForm />
             </section>
 
             <aside className="callout">

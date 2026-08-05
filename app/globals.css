@@ -40,6 +40,8 @@ a {
 
 a:focus-visible,
 button:focus-visible,
+input:focus-visible,
+select:focus-visible,
 summary:focus-visible {
   outline: 3px solid color-mix(in srgb, var(--accent) 55%, transparent);
   outline-offset: 4px;
@@ -431,6 +433,89 @@ h1 {
   text-decoration: none !important;
 }
 
+.interest-form {
+  display: grid;
+  margin-top: 24px;
+  gap: 22px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.interest-form label,
+.interest-form legend {
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 680;
+}
+
+.interest-form select {
+  width: 100%;
+  min-height: 46px;
+  margin-top: 8px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface-solid);
+  color: var(--text);
+  padding: 10px 12px;
+  font: inherit;
+}
+
+.interest-form fieldset {
+  margin: 0;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 18px;
+}
+
+.interest-form legend {
+  padding: 0 6px;
+}
+
+.checkbox-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px 18px;
+}
+
+.checkbox-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  color: var(--secondary) !important;
+  font-weight: 500 !important;
+  line-height: 1.45;
+}
+
+.checkbox-row input {
+  width: 18px;
+  height: 18px;
+  margin: 1px 0 0;
+  accent-color: var(--accent);
+}
+
+.form-notice {
+  border-radius: 14px;
+  background: var(--accent-soft);
+  color: var(--secondary);
+  padding: 14px 16px;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.form-notice strong {
+  color: var(--text);
+}
+
+.interest-form button {
+  border: 0;
+  cursor: pointer;
+  font-family: inherit;
+}
+
 .primary-link {
   background: var(--accent);
   color: white !important;
@@ -568,7 +653,9 @@ h1 {
   }
 
   .choice-grid,
-  .support-grid {
+  .support-grid,
+  .form-grid,
+  .checkbox-grid {
     grid-template-columns: 1fr;
   }
 

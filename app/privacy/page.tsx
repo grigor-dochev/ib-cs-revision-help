@@ -135,19 +135,32 @@ export default function PrivacyPolicy() {
                 address and information you include. Support correspondence is
                 used only to respond to your request.
               </p>
+
+              <h3>School licensing enquiries</h3>
+              <p>
+                The teacher licensing form runs only in your browser and uses no
+                analytics or form processor. It asks for a school role, broad
+                region, potential licence-count band, timeline, and selected
+                procurement requirements. Nothing is sent while you select
+                answers. If you open and send the generated email, your email
+                service supplies your sender address and the structured answers
+                to the support mailbox. The form requests no student data,
+                school name, roster, or educational record.
+              </p>
             </section>
 
             <section className="document-section" id="processing">
               <h2>How the data is used</h2>
-              <p>The app uses this data only to provide its features:</p>
+              <p>The app and website use this data only for these purposes:</p>
               <ul>
                 <li>personalize the syllabus and study preferences;</li>
                 <li>display lesson, question, practice, review, and bookmark progress;</li>
                 <li>ground and configure the private Question Assistant;</li>
                 <li>sync your profile and progress between your Apple devices;</li>
                 <li>create a progress summary when you explicitly request an export;</li>
-                <li>restore access to a verified in-app purchase; and</li>
-                <li>remember anonymous referral or campaign attribution on your device.</li>
+                <li>restore access to a verified in-app purchase;</li>
+                <li>remember anonymous referral or campaign attribution on your device; and</li>
+                <li>measure qualified school-licensing interest from explicitly sent enquiries.</li>
               </ul>
               <p>
                 The developer does not sell this information, use it for
@@ -233,6 +246,13 @@ export default function PrivacyPolicy() {
                 the request, maintain an appropriate support record, or meet a
                 legal obligation. You can ask for deletion by emailing the
                 address on the support page.
+              </p>
+              <p>
+                Raw school-licensing enquiries are retained for at most 12
+                months after the discovery review so demand can be assessed and
+                a response provided. Non-identifying aggregate counts may be
+                retained for product planning. You may request earlier deletion
+                using the support address.
               </p>
             </section>
 
