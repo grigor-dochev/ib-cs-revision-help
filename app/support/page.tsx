@@ -56,11 +56,23 @@ export default function Support() {
           </article>
 
           <article className="support-card">
+            <h2>Export study progress</h2>
+            <p>
+              Open <strong>Settings → Progress → Export Study Progress</strong>
+              and choose a destination in the Apple share sheet. The JSON file
+              contains progress and aggregate quiz history, not saved answers,
+              answer keys, purchase data, or internal identifiers.
+            </p>
+          </article>
+
+          <article className="support-card">
             <h2>Reset study progress</h2>
             <p>
               Open <strong>Settings → Progress → Reset All Progress</strong>.
               The confirmation explains exactly what will be deleted from the
-              private iCloud database before anything changes.
+              private iCloud database before anything changes. Other devices
+              reflect the deletion when iCloud syncs. Reset does not remove
+              progress files you previously exported.
             </p>
           </article>
 

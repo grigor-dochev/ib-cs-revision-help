@@ -72,6 +72,17 @@ export default function PrivacyPolicy() {
                 your device. They are not sent to the developer.
               </p>
 
+              <h3>Study progress exports</h3>
+              <p>
+                If you choose <strong>Export Study Progress</strong>, the app
+                prepares a human-readable JSON summary containing topic and
+                question progress, aggregate quiz history, and bookmarks. The
+                export excludes saved answers, selected options, answer keys,
+                internal record and attempt identifiers, and purchase data. It
+                is shared only through the destination you choose in Apple&apos;s
+                system share sheet.
+              </p>
+
               <h3>Question Assistant prompts</h3>
               <p>
                 Prompts and generated answers are held only for the active
@@ -134,6 +145,7 @@ export default function PrivacyPolicy() {
                 <li>display lesson, question, practice, review, and bookmark progress;</li>
                 <li>ground and configure the private Question Assistant;</li>
                 <li>sync your profile and progress between your Apple devices;</li>
+                <li>create a progress summary when you explicitly request an export;</li>
                 <li>restore access to a verified in-app purchase; and</li>
                 <li>remember anonymous referral or campaign attribution on your device.</li>
               </ul>
@@ -211,6 +223,12 @@ export default function PrivacyPolicy() {
                 one device does not necessarily delete records already in iCloud.
               </p>
               <p>
+                A progress export is a separate copy under your control. Resetting
+                the app or deleting synced study data does not delete a file you
+                already saved or shared; remove that copy from its destination
+                when you no longer need it.
+              </p>
+              <p>
                 Support emails are retained only as reasonably needed to answer
                 the request, maintain an appropriate support record, or meet a
                 legal obligation. You can ask for deletion by emailing the
@@ -224,6 +242,7 @@ export default function PrivacyPolicy() {
                 <li>You may use free bundled content without creating an account.</li>
                 <li>You can choose whether iCloud is enabled for the app.</li>
                 <li>You can reset study progress from the app at any time.</li>
+                <li>You can export a progress-only JSON summary from Settings.</li>
                 <li>You can disable Apple Intelligence or avoid Question Assistant.</li>
                 <li>
                   You can manage diagnostic sharing in <strong>Settings →
@@ -235,7 +254,9 @@ export default function PrivacyPolicy() {
               <p>
                 Because the developer does not maintain a separate user account
                 or server-side study profile, there is no developer-held study
-                account data to export or delete.
+                account data for the developer to export or delete on your behalf.
+                The in-app export gives you a copy of the eligible progress data
+                available to the app on your device.
               </p>
             </section>
 
