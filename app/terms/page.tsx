@@ -105,6 +105,12 @@ export default function TermsOfUse() {
                 processes. Use Restore Purchases in the app when reinstalling or
                 moving to another eligible device.
               </p>
+              <p>
+                Teacher referral codes identify how the app was discovered and
+                do not grant Full Access by themselves. Any promotional access
+                must be delivered through an approved App Store or server-backed
+                offer and remains subject to its stated eligibility and expiry.
+              </p>
             </section>
 
             <section className="document-section" id="content">

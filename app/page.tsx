@@ -22,6 +22,18 @@ export default function Home() {
         </section>
 
         <section className="choice-grid" aria-label="Information pages">
+          <Link className="choice-card" href="/teachers">
+            <span className="choice-icon" aria-hidden="true">T</span>
+            <span>
+              <strong>For Teachers</strong>
+              <small>
+                Share an independent revision aid and understand how referral
+                codes protect student privacy.
+              </small>
+            </span>
+            <span className="arrow" aria-hidden="true">→</span>
+          </Link>
+
           <Link className="choice-card" href="/support">
             <span className="choice-icon" aria-hidden="true">?</span>
             <span>

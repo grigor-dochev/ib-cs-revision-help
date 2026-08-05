@@ -85,6 +85,14 @@ export default function PrivacyPolicy() {
                 it does not receive or store your payment-card details.
               </p>
 
+              <h3>Teacher referral codes</h3>
+              <p>
+                If you choose to verify a teacher referral code, the app stores
+                the signed code&apos;s anonymous campaign identifier, code version,
+                acceptance date, and expiry date on your device. The referral
+                contains no student identity and is not sent to the developer.
+              </p>
+
               <h3>Support messages</h3>
               <p>
                 If you choose to email support, your email service sends the
@@ -100,8 +108,9 @@ export default function PrivacyPolicy() {
                 <li>personalize the syllabus and study preferences;</li>
                 <li>display lesson, question, practice, review, and bookmark progress;</li>
                 <li>ground and configure the private Question Assistant;</li>
-                <li>sync your profile and progress between your Apple devices; and</li>
-                <li>restore access to a verified in-app purchase.</li>
+                <li>sync your profile and progress between your Apple devices;</li>
+                <li>restore access to a verified in-app purchase; and</li>
+                <li>remember an anonymous teacher referral on your device.</li>
               </ul>
               <p>
                 The developer does not sell this information, use it for
@@ -152,6 +161,11 @@ export default function PrivacyPolicy() {
                 and its local data. Study profile and progress remain in the
                 app&apos;s private iCloud database so they can sync across your
                 devices.
+              </p>
+              <p>
+                Local teacher referral attribution is removed when the app and
+                its local data are deleted. It is not included in the private
+                CloudKit study records.
               </p>
               <p>
                 Use <strong>Settings → Reset All Progress</strong> to remove
