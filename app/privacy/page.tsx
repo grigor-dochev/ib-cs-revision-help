@@ -50,6 +50,7 @@ export default function PrivacyPolicy() {
                 <li>No account with the developer is required.</li>
                 <li>Question Assistant conversations are processed on device.</li>
                 <li>Study data syncs only through your private iCloud database.</li>
+                <li>Crash and performance diagnostics use Apple system controls.</li>
               </ul>
             </section>
 
@@ -104,6 +105,19 @@ export default function PrivacyPolicy() {
                 provider.
               </p>
 
+              <h3>Crash and performance diagnostics</h3>
+              <p>
+                Apple may collect app crash, hang, launch, and performance
+                diagnostics and make them available to the developer when you
+                have enabled sharing with app developers in iOS Settings. The
+                app reduces MetricKit reports to broad technical categories,
+                app and build version, and content-package version in the
+                device&apos;s unified log. It does not include questions, answers,
+                prompts, topic or attempt identifiers, referral data, or your
+                identity, and the app does not upload diagnostics to a
+                developer or third-party server.
+              </p>
+
               <h3>Support messages</h3>
               <p>
                 If you choose to email support, your email service sends the
@@ -149,6 +163,11 @@ export default function PrivacyPolicy() {
                 <li>
                   <strong>App Store and StoreKit:</strong> Apple processes the
                   Full Access purchase and supplies verified entitlement status.
+                </li>
+                <li>
+                  <strong>MetricKit and App Analytics:</strong> Apple manages
+                  optional crash and performance diagnostics under your device
+                  analytics-sharing choices.
                 </li>
               </ul>
               <p>
@@ -206,6 +225,11 @@ export default function PrivacyPolicy() {
                 <li>You can choose whether iCloud is enabled for the app.</li>
                 <li>You can reset study progress from the app at any time.</li>
                 <li>You can disable Apple Intelligence or avoid Question Assistant.</li>
+                <li>
+                  You can manage diagnostic sharing in <strong>Settings →
+                  Privacy &amp; Security → Analytics &amp; Improvements</strong>,
+                  including <strong>Share With App Developers</strong> where available.
+                </li>
                 <li>You decide whether and what to include in a support email.</li>
               </ul>
               <p>
