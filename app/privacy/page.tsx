@@ -99,19 +99,11 @@ export default function PrivacyPolicy() {
                 it does not receive or store your payment-card details.
               </p>
 
-              <h3>Teacher referral codes</h3>
-              <p>
-                If you choose to verify a teacher referral code, the app stores
-                the signed code&apos;s anonymous campaign identifier, code version,
-                acceptance date, and expiry date on your device. The referral
-                contains no student identity and is not sent to the developer.
-              </p>
-
               <h3>Campaign links</h3>
               <p>
                 If you open a valid campaign link, the app may store one local
                 attribution record containing a bounded campaign identifier,
-                an allow-listed source such as the website or a teacher, the
+                an allow-listed campaign source, the
                 type of destination opened, and the date. The newest valid
                 record replaces the previous one. It is not linked to your
                 identity and is not sent to the developer or an analytics
@@ -138,17 +130,6 @@ export default function PrivacyPolicy() {
                 used only to respond to your request.
               </p>
 
-              <h3>School licensing enquiries</h3>
-              <p>
-                The teacher licensing form runs only in your browser and uses no
-                analytics or form processor. It asks for a school role, broad
-                region, potential licence-count band, timeline, and selected
-                procurement requirements. Nothing is sent while you select
-                answers. If you open and send the generated email, your email
-                service supplies your sender address and the structured answers
-                to the support mailbox. The form requests no student data,
-                school name, roster, or educational record.
-              </p>
             </section>
 
             <section className="document-section" id="processing">
@@ -161,8 +142,7 @@ export default function PrivacyPolicy() {
                 <li>sync your profile and progress between your Apple devices;</li>
                 <li>create a progress summary when you explicitly request an export;</li>
                 <li>restore access to a verified in-app purchase;</li>
-                <li>remember anonymous referral or campaign attribution on your device; and</li>
-                <li>measure qualified school-licensing interest from explicitly sent enquiries.</li>
+                <li>remember anonymous campaign attribution on your device.</li>
               </ul>
               <p>
                 The developer does not sell this information, use it for
@@ -222,11 +202,6 @@ export default function PrivacyPolicy() {
                 and its local data. Study profile and progress remain in the
                 app&apos;s private iCloud database so they can sync across your
                 devices.
-              </p>
-              <p>
-                Local teacher referral attribution is removed when the app and
-                its local data are deleted. It is not included in the private
-                CloudKit study records.
               </p>
               <p>
                 Local campaign-link attribution is also removed when the app

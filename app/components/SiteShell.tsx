@@ -13,7 +13,6 @@ export function SiteShell({ children }: Readonly<{ children: React.ReactNode }>)
           </Link>
 
           <nav className="site-nav" aria-label="Primary navigation">
-            <Link href="/teachers">Teachers</Link>
             <Link href="/support">Support</Link>
             <Link href="/privacy">Privacy</Link>
             <Link href="/terms">Terms</Link>
@@ -27,7 +26,6 @@ export function SiteShell({ children }: Readonly<{ children: React.ReactNode }>)
         <div className="site-frame footer-inner">
           <span>© 2026 Grigor Dochev</span>
           <nav className="footer-links" aria-label="Footer navigation">
-            <Link href="/teachers">Teachers</Link>
             <Link href="/support">Support</Link>
             <Link href="/privacy">Privacy</Link>
             <Link href="/terms">Terms</Link>
