@@ -44,7 +44,8 @@ export default function Support() {
           <article className="support-card">
             <h2>Restore Full Access</h2>
             <p>
-              Open <strong>Settings → Full Access → Restore Purchases</strong>.
+              Open <strong>Settings</strong>, then choose <strong>Restore Purchases</strong>
+              under Full Access.
               Use the Apple Account that made the original one-time purchase.
               IB CS Revision does not use a subscription.
             </p>
@@ -58,7 +59,7 @@ export default function Support() {
           <article className="support-card">
             <h2>Export study progress</h2>
             <p>
-              Open <strong>Settings → Progress → Export Study Progress</strong>
+              Open <strong>Settings → Data &amp; Sync → Export Study Progress</strong>
               and choose a destination in the Apple share sheet. The JSON file
               contains progress and aggregate quiz history, not saved answers,
               answer keys, purchase data, or internal identifiers.
@@ -68,11 +69,21 @@ export default function Support() {
           <article className="support-card">
             <h2>Reset study progress</h2>
             <p>
-              Open <strong>Settings → Progress → Reset All Progress</strong>.
+              Open <strong>Settings → Data &amp; Sync → Reset All Progress</strong>.
               The confirmation explains exactly what will be deleted from the
               private iCloud database before anything changes. Other devices
               reflect the deletion when iCloud syncs. Reset does not remove
               progress files you previously exported.
+            </p>
+          </article>
+
+          <article className="support-card">
+            <h2>Practice reminders</h2>
+            <p>
+              Open <strong>Settings → Practice Reminders</strong> to enable a
+              daily local notification and choose its time. If notifications
+              are disabled, use the button there to open the system Settings
+              app. The reminder schedule stays on your device.
             </p>
           </article>
 

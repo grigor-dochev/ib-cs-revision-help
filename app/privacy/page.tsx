@@ -31,7 +31,7 @@ export default function PrivacyPolicy() {
             IB CS Revision is designed so your learning activity stays on your
             devices and in your private iCloud database.
           </p>
-          <p className="updated">Effective 5 August 2026</p>
+          <p className="updated">Effective 6 August 2026</p>
         </header>
 
         <div className="content-layout">
@@ -68,10 +68,11 @@ export default function PrivacyPolicy() {
               <h3>App preferences</h3>
               <p>
                 App-scoped preferences and operational flags, including whether
-                the free assistant conversation has been used, are stored on
-                your device. A due-review count and its review dates are also
-                shared locally with the app&apos;s Due Review widget through an
-                Apple App Group container. They are not sent to the developer.
+                the free assistant conversation has been used and your optional
+                practice-reminder schedule, are stored on your device. A
+                due-review count and its review dates are also shared locally
+                with the app&apos;s Due Review widget through an Apple App Group
+                container. They are not sent to the developer.
               </p>
 
               <h3>Study progress exports</h3>
@@ -143,6 +144,7 @@ export default function PrivacyPolicy() {
                 <li>create a progress summary when you explicitly request an export;</li>
                 <li>restore access to a verified in-app purchase;</li>
                 <li>remember anonymous campaign attribution on your device.</li>
+                <li>schedule an optional local practice reminder at the time you choose.</li>
               </ul>
               <p>
                 The developer does not sell this information, use it for
@@ -179,6 +181,11 @@ export default function PrivacyPolicy() {
                 <li>
                   <strong>WidgetKit:</strong> the Due Review widget reads only
                   the local review summary shared by the app in its App Group.
+                </li>
+                <li>
+                  <strong>User Notifications:</strong> iOS schedules the optional
+                  practice reminder locally on your device after you grant
+                  notification permission.
                 </li>
               </ul>
               <p>
@@ -228,13 +235,6 @@ export default function PrivacyPolicy() {
                 legal obligation. You can ask for deletion by emailing the
                 address on the support page.
               </p>
-              <p>
-                Raw school-licensing enquiries are retained for at most 12
-                months after the discovery review so demand can be assessed and
-                a response provided. Non-identifying aggregate counts may be
-                retained for product planning. You may request earlier deletion
-                using the support address.
-              </p>
             </section>
 
             <section className="document-section" id="rights">
@@ -244,6 +244,7 @@ export default function PrivacyPolicy() {
                 <li>You can choose whether iCloud is enabled for the app.</li>
                 <li>You can reset study progress from the app at any time.</li>
                 <li>You can export a progress-only JSON summary from Settings.</li>
+                <li>You can enable, change, or disable the local practice reminder.</li>
                 <li>You can disable Apple Intelligence or avoid Question Assistant.</li>
                 <li>
                   You can manage diagnostic sharing in <strong>Settings →
