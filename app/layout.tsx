@@ -1,30 +1,35 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import type { Metadata, Viewport } from "next";
+import { site } from "@/site.config";
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: {
-    default: "IB CS Revision Help & Privacy",
-    template: "%s · IB CS Revision",
+    default: `${site.appName}: Help, Privacy & Terms`,
+    template: `%s · ${site.appName}`,
   },
-  description:
-    "Official support, privacy and terms information for the IB CS Revision app.",
-  applicationName: "IB CS Revision",
-  authors: [{ name: "Grigor Dochev" }],
+  description: `Support, privacy policy and terms of use for ${site.appName}, an independent revision app for iPhone and iPad.`,
+  applicationName: site.appName,
+  authors: [{ name: site.developerName }],
+  metadataBase: new URL(`${site.siteUrl}/`),
   robots: {
     index: true,
     follow: true,
   },
+  formatDetection: {
+    email: false,
+    telephone: false,
+  },
+  other: {
+    "apple-itunes-app": `app-id=${site.appStoreId}`,
+  },
+};
+
+export const viewport: Viewport = {
+  colorScheme: "light dark",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#f7f8fa" },
+    { media: "(prefers-color-scheme: dark)", color: "#0d0f12" },
+  ],
 };
 
 export default function RootLayout({
@@ -33,10 +38,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
-      </body>
+    <html lang="en-GB">
+      <body>{children}</body>
     </html>
   );
 }
