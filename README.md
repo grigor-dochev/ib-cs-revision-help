@@ -1,6 +1,6 @@
-# IB CS Revision: help, privacy and terms
+# CS Revision: help, privacy and terms
 
-Public website for the IB CS Revision iOS and iPadOS app: a landing page,
+Public website for the CS Revision iOS and iPadOS app: a landing page,
 support, privacy policy and terms of use. It is a static Next.js export
 deployed to GitHub Pages.
 

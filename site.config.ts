@@ -7,7 +7,7 @@
  */
 export const site = {
   /** Name of the app as shown on this website. */
-  appName: "IB CS Revision",
+  appName: "CS Revision",
 
   /** Name used for the developer in legal text and the footer. */
   developerName: "Grigor Dochev",
